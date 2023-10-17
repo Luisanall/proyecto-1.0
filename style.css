@@ -1,8 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;600;800 & display=swap'); */
 
-body{
-    background-color: #998c9c;
-}
+
 .logo{
     height: 7vw;
     width: 7vw;
@@ -20,7 +18,6 @@ body{
     padding: 6vw 0vw 5vw 12vw;
     position: fixed;
   
-    
 } 
 
 nav{
@@ -216,7 +213,7 @@ body {
 }
 .contenido{
     display: flex;
-    color: #f6eeee;
+    color: #302b2b;
     text-decoration: none;
 }
 .descripcion{
@@ -230,5 +227,11 @@ body {
     text-decoration: none;
     display: block;
     position: left;
-    
+
+}
+footer{
+display:grid;
+grid-template-columns: repeat(2,auto);
+margin: 0 5px 0 0;
+background-color: #998c9c;
 }
